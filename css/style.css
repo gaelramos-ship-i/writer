@@ -28,6 +28,12 @@ a:hover{
     background: #E8F2ED;
 }
 
+h1{
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
 /* Header */
 
 header{
@@ -39,7 +45,7 @@ header div{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 20px 10px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -82,6 +88,45 @@ header form input::placeholder{
 
 header form a i{
     color: #4F966E;
+}
+
+/* Main 1 */
+
+.section1{
+    max-width: 1040px;
+    margin: auto;
+}
+
+.section1 div{
+    background-image: url("../img/img-writer-page1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 464px;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.section1 article{
+    position: relative;
+    top: 50%;
+    padding: 0 40px;
+}
+
+.section1 article p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.btnVert{
+    padding: 10px 20px;
+    background: #1AE570;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 /* Footer */
