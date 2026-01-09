@@ -1,0 +1,71 @@
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+/* General */
+
+*{
+    margin: 0;
+    font-family: "Newsreader", serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 20px;
+    background: #E8F2ED;
+}
+
+/* Header */
+
+header{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header nav form{
+    display: flex;
+    gap: 20px;
+}
+
+header > a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0D1C12;
+}
+
+header form input{
+    border: none;
+    background: #E8F2ED;
+}
+
+header form a:nth-child(1){
+    width: 260px;
+    margin: auto;
+}
+
+header form a:nth-child(2){
+    width: 80px;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+header form input::placeholder{
+    color: #4F966E;
+    font-size: 16px;
+}
+
+header form a i{
+    color: #4F966E;
+}
