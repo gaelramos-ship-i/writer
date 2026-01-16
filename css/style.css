@@ -169,6 +169,19 @@ header form a i{
     margin: auto 0 25px;
 }
 
+/* Section article RV */
+
+.sectionRV{
+    max-width: 882px;
+    margin: auto;
+    text-align: center;
+}
+
+.sectionRV article img{
+    height: 216px;
+    object-fit: cover;
+}
+
 /* Footer */
 
 footer{
